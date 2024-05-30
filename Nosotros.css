@@ -1,0 +1,200 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Estilos del menú */
+.menu {
+  max-width: 1400px;
+  padding: 3%;
+  margin: 0 auto;
+
+}
+
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+nav .logo img{
+  width: 100%;
+  height: 100px;
+}
+
+nav ul{
+  list-style: none;
+
+}
+
+nav ul li{
+ display: inline-block;
+}
+
+nav ul li a{
+  padding: 10px 20px ;
+  text-decoration: none;
+  font-size: 19px;
+  color: #000;
+  border-radius: 30px ;
+  transition: 0.6s;
+}
+nav ul li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Sección de historia */
+.historia {
+    background: #c3bab1;
+    padding: 20px;
+    text-align: center;
+}
+
+.historia .section-title {
+    margin-bottom: 20px;
+}
+
+.historia h1 {
+    font-size: 32px;
+}
+
+.historia h3 {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.historia-image {
+    width: 100%;
+   height: 400px;
+    margin: 20px 0;
+}
+.historia-image img{
+  width: 100%;
+}
+/* Sección de valores */
+.Valores {
+    background: #e8e0d8;
+    padding: 20px;
+}
+
+.card-con {
+    margin-bottom: 20px;
+}
+
+.card-img {
+    display: flex;
+    align-items: center;
+}
+
+.card-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.card-info {
+    flex: 1;
+}
+
+.card-info h2 {
+    font-size: 24px;
+}
+
+.card-info p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Sección de misión */
+.mision {
+    background: #c3bab1;
+    padding: 20px;
+    text-align: center;
+}
+
+.mision .section-title {
+    margin-bottom: 20px;
+}
+
+.mision h1 {
+    font-size: 32px;
+}
+
+.mision h3 {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Sección de objetivos */
+.objetivo {
+    background: #e8e0d8;
+    padding: 20px;
+}
+
+.objetivo .section-title {
+    margin-bottom: 20px;
+}
+
+.objetivo h1 {
+    font-size: 32px;
+}
+
+.objetivo ul {
+        padding-left: 20px;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    /* Estilos del footer */
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        clear: both;
+        margin-top: 20px;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+    .social-icons {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        margin: 0 10px;
+        display: inline-block;
+    }
+
+ .social-icons {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            font-size: 24px;
+            color: #555;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #007bff;
+
+            }
